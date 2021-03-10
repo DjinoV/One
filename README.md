@@ -11,6 +11,6 @@
  - Micro USB
  - And ofcourse, a single RGB LED
 
-Board size:
-40x30mm
-Powered off a 12V Li-Po 
+ Board size:
+ 40x30mm
+ Powered off a 12V Li-Po 
