@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:DMN2230U Q?
-U 1 1 604B2322
-P 5325 4000
-AR Path="/604B2322" Ref="Q?"  Part="1" 
-AR Path="/604AFA5F/604B2322" Ref="Q1"  Part="1" 
-F 0 "Q1" H 5529 4046 50  0000 L CNN
-F 1 "DMN2230U" H 5529 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5525 3925 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds31180.pdf" H 5325 4000 50  0001 L CNN
-	1    5325 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 604B2334
 P 5225 1950
@@ -119,61 +106,6 @@ F 3 "" H 5275 2675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4775 2975 4975 2975
-Wire Wire Line
-	5600 3725 5425 3725
-Wire Wire Line
-	5425 3725 5425 3800
-$Comp
-L Device:R_Small R?
-U 1 1 604B2379
-P 5000 4000
-AR Path="/604B2379" Ref="R?"  Part="1" 
-AR Path="/604AFA5F/604B2379" Ref="R8"  Part="1" 
-F 0 "R8" V 5196 4000 50  0000 C CNN
-F 1 "10K" V 5105 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 4000 50  0001 C CNN
-F 3 "~" H 5000 4000 50  0001 C CNN
-	1    5000 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 604B2380
-P 5125 4100
-AR Path="/604B2380" Ref="R?"  Part="1" 
-AR Path="/604AFA5F/604B2380" Ref="R9"  Part="1" 
-F 0 "R9" H 5025 4100 50  0000 C CNN
-F 1 "150R" H 4975 4025 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5125 4100 50  0001 C CNN
-F 3 "~" H 5125 4100 50  0001 C CNN
-	1    5125 4100
-	1    0    0    -1  
-$EndComp
-Connection ~ 5125 4000
-Wire Wire Line
-	5100 4000 5125 4000
-Wire Wire Line
-	5425 4200 5425 4275
-Wire Wire Line
-	5425 4275 5275 4275
-Wire Wire Line
-	5125 4275 5125 4200
-$Comp
-L power:GND #PWR?
-U 1 1 604B238B
-P 5275 4275
-AR Path="/604B238B" Ref="#PWR?"  Part="1" 
-AR Path="/604AFA5F/604B238B" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 5275 4025 50  0001 C CNN
-F 1 "GND" H 5280 4102 50  0000 C CNN
-F 2 "" H 5275 4275 50  0001 C CNN
-F 3 "" H 5275 4275 50  0001 C CNN
-	1    5275 4275
-	1    0    0    -1  
-$EndComp
-Connection ~ 5275 4275
-Wire Wire Line
-	5275 4275 5125 4275
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 604B2393
@@ -296,8 +228,6 @@ Text HLabel 4500 5350 0    39   Input ~ 0
 SCK
 Text HLabel 4500 5550 0    39   Input ~ 0
 MISO
-Text HLabel 4900 4000 0    39   Input ~ 0
-PYRO_1
 Text HLabel 4775 2975 0    39   Input ~ 0
 RGB_LEDS
 $Comp
@@ -458,4 +388,19 @@ Wire Notes Line
 	6525 6050 6525 4525
 NoConn ~ 7750 5475
 NoConn ~ 7750 5575
+$Comp
+L Transistor_FET:DMN2230U Q?
+U 1 1 604B2322
+P 5125 4100
+AR Path="/604B2322" Ref="Q?"  Part="1" 
+AR Path="/604AFA5F/604B2322" Ref="Q1"  Part="1" 
+F 0 "Q1" H 5329 4146 50  0000 L CNN
+F 1 "DMN2230U" H 5329 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5325 4025 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds31180.pdf" H 5125 4100 50  0001 L CNN
+	1    5125 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4700 4050 0    39   Input ~ 0
+PYRO_1
 $EndSCHEMATC

@@ -403,4 +403,8 @@ F 3 "http://www.diodes.com/assets/Datasheets/ds31180.pdf" H 5125 4100 50  0001 L
 $EndComp
 Text HLabel 4700 4050 0    39   Input ~ 0
 PYRO_1
+Wire Wire Line
+	5225 3900 5225 3725
+Wire Wire Line
+	5225 3725 5600 3725
 $EndSCHEMATC
