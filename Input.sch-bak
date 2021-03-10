@@ -389,7 +389,7 @@ Wire Notes Line
 	4650 5700 6550 5700
 Wire Notes Line
 	6550 5700 6550 5200
-Text Notes 6125 1700 0    118  ~ 24
+Text Notes 4625 1775 0    118  ~ 24
 INPUT
 Text Notes 4675 3925 0    39   ~ 0
 IMU - BNO055
