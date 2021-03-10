@@ -4,7 +4,7 @@
  It features:
  - A STM32F103C8T6
  - A BMI088 IMU
- - A BMP280 Barometric pressure snesor
+ - A BMP280 Barometric pressure sensor
  - A microSD card slot
  - A 32MB flash chip
  - A single pyro channel 
