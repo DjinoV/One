@@ -12,5 +12,5 @@
  - And ofcourse, a single RGB LED
 
  Board size:
- 40x30mm
+ 50(maybe 40)x30mm
  Powered off a 12V Li-Po 
