@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -47,7 +47,7 @@ AR Path="/604B2393" Ref="J?"  Part="1"
 AR Path="/604AFA5F/604B2393" Ref="J5"  Part="1" 
 F 0 "J5" H 5955 3992 50  0000 L CNN
 F 1 "ST_01x02" H 5955 3901 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5875 4000 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 5875 4000 50  0001 C CNN
 F 3 "~" H 5875 4000 50  0001 C CNN
 	1    5875 4000
 	1    0    0    -1  
